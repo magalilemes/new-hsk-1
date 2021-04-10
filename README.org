@@ -1,0 +1,47 @@
+#+TITLE:     HSK 1 - Anki deck
+#+LANGUAGE:  en
+
+* Files:
+
+- wordlist.txt is from https://github.com/elkmovie/hsk30;
+- hsk1-csv-generator.py creates a .csv file with four fields: a word
+  written in simplified Chinese characters, its corresponding pinyin,
+  meaning and audio.
+- hsk1.csv was generated using the 'hsk1-csv-generator.py', and
+  modified manually. The following changes were made:
+
+** Words that had their generated translation changed:
+
+| Word | Generated translation                                           | Fixed translation |
+| 车   | war chariot (archaic), rook (in Chinese chess), rook (in chess) | car               |
+| 那   | (archaic) many, beautiful, how, old variant of 挪[nuo2]         | that              |
+| 女   | archaic variant of 汝[ru3]                                      | female            |
+| 年   | grain, harvest (old), variant of 年[nian2]                      | year              |
+
+** Words that weren't translated:
+  
+| Word | Translation      |
+| 车上 | in the car       |
+| 看到 | to see           |
+| 请坐 | please, sit down |
+| 在家 | at home          |
+| 真的 | really           |
+
+** Missing word due to parenthesis
+
+| Word   | Meaning | Was |
+| 有一些 | some    | 有  |
+
+** Duplicate character
+
+In HSK 1, there are three characters that are the same, but can have
+different meaning and pronunciation. 
+Because of that, I renamed the audios in the csv file to '地1.mp3' and
+'地2.mp3', for instance.
+
+| Character | Pinyin 1 | Meaning 1                          | Pinyin 2 | Meaning 2            |
+| 地        | de       | makes the preceding word an adverb | dì       | earth, ground, floor |
+| 干        | gān      | to concern                         | gàn      | do                   |
+| 还        | hái      | still, yet                         | huán     | to return            |
+
+Some audio files were downloaded from both Forvo and Wiktionary.
