@@ -32,12 +32,14 @@
 | Word   | Meaning | Was |
 | 有一些 | some    | 有  |
 
-** Duplicate character
+** Duplicated character
 
 In HSK 1, there are three characters that are the same, but can have
 different meaning and pronunciation. 
 Because of that, I renamed the audios in the csv file to '地1.mp3' and
 '地2.mp3', for instance.
+To distinguish the characters, the character's tone or part of the speech was
+indicated.
 
 | Character | Pinyin 1 | Meaning 1                          | Pinyin 2 | Meaning 2            |
 | 地        | de       | makes the preceding word an adverb | dì       | earth, ground, floor |
